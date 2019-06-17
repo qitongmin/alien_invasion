@@ -17,5 +17,5 @@ class Bullet(Sprite):
         self.speed_factor = ai_settings.bullet_speed_factor
         """在子弹属性center中储存小数值"""
         self.y = float(self.rect.y)
-    
+
 
